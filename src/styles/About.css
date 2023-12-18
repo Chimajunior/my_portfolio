@@ -1,0 +1,247 @@
+.firstHead {
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  font-family: cursive;
+  font-size: 60px;
+}
+.subHead {
+  font-size: 1.2em;
+  text-align: center;
+  color: white;
+}
+
+.containerAb {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.about h1 {
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  color: white;
+}
+.about h1 .hSpan {
+  color: #ccf;
+}
+.social {
+  margin: 0px;
+  color: white;
+}
+
+.social svg {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 10px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.about p {
+  padding: 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #fff;
+  line-height: 25px;
+}
+.about button {
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 180px;
+  font-size: 20px;
+  cursor: pointer;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #ccf;
+}
+.about button:hover {
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+.aboutContent{
+padding: 20px;
+}
+
+.imageFrame {
+  width: 38%;
+  height: 80%;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  z-index: 800;
+
+}
+.imageFrame img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10% 50%;
+
+}
+.skillContain {
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.skillContain h1 {
+  text-align: center;
+}
+.skillContain p {
+  font-size: 20px;
+}
+
+.langItem {
+  display: flex;
+  background-color: #cce;
+  border-radius: 10px;
+  margin-right: 20px;
+  padding: 5px;
+  justify-content: center;
+}
+.langIcon {
+  font-size: 30px;
+  margin: 5px;
+}
+.langItem span {
+  color: black;
+  font-size: 16px;
+  padding: 10px;
+}
+.propsContainer {
+  display: flex;
+  justify-content: center;
+}
+.about a {
+  /* text-decoration: none; */
+  color: #ccf;
+}
+
+/* Responsiveness */
+@media only screen and (min-width: 300px) and (max-width: 799px) {
+  .containerAb {
+    display: flex;
+    flex-direction: column-reverse;
+    /* align-items: none; */
+    justify-content: none;
+  }
+  .content {
+    padding: 20px;
+  }
+  .about {
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+  }
+  .skillContain {
+    color: #fff;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+    gap: 100px;
+  }
+  
+  
+  .imageFrame {
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    /* background-position: center; */
+    background-size: cover;
+  }
+  .social svg {
+    color: red;
+    flex-direction: row;
+  }
+  .social {
+    flex-direction: row;
+    /* background-color: green; */
+    margin-bottom: 100px;
+  }
+
+  .propsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .langItem {
+    margin-bottom: 20px;
+  }
+  .aboutContent h1 {
+    margin-bottom: 30px;
+  }
+  .subHead {
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+  .containerAb {
+    display: flex;
+    flex-direction: column-reverse;
+    /* align-items: none; */
+    justify-content: none;
+  }
+  .content {
+    padding: 20px;
+  }
+  .about {
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+  }
+  .skillContain {
+    color: #fff;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  
+  .imageFrame {
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    /* background-position: center; */
+    background-size: cover;
+  }
+  .social {
+    display: flex;
+    flex-direction: row;
+  }
+  .social svg {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .propsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .langItem {
+    margin-bottom: 20px;
+  }
+  .aboutContent h1 {
+    margin-bottom: 30px;
+  }
+  .subHead {
+    margin-bottom: 60px;
+  }
+}
