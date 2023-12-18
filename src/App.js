@@ -1,4 +1,3 @@
-// import React from "react";
 import React, {useEffect } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -8,6 +7,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ThankYou from "./pages/ThankYou";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import AOS from 'aos';
@@ -34,6 +34,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/ThankYou" element={<ThankYou />} />
         </Routes>
         <Footer />
       </Router>
