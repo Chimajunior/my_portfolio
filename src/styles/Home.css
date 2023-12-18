@@ -1,0 +1,71 @@
+:root {
+  --text: #d4f7e2;
+  --background: #020904;
+  --primary: #37d7c7;
+  --secondary: #370b26;
+  --accent: #d73747;
+}
+
+ /* Set the background color to a dark gray  */
+body {
+  /* background-color: #121619; */
+    background-color: black;
+}
+.home{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 79vh;
+}
+
+ .hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.heroHead{
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 60px;
+}
+.fSpan {
+  color: #ccf;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  font-family: cursive;
+  font-size: 3rem;
+}
+.hSpan {
+  color: #ccf;
+}
+
+.heroBut{
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 180px;
+  font-size: 20px;
+  cursor: pointer;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #ccf;
+}
+.heroBut:hover {
+  background-color: #fff;
+  transition: 0.3s ease-in;
+}
+
+/* Responsiveness */
+
+
+
+
+
+
+
+
+
