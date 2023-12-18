@@ -1,0 +1,27 @@
+.tY{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 79vh;
+  }
+  .heroo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    height: 500px;
+  }
+
+.heroo h1,h2{
+   
+    color: black;
+    text-align: center;
+}
+.heroo h1{
+    font-size: 3rem;
+}
+.heroo h2{
+    font-size: 2rem;
+}
