@@ -21,17 +21,21 @@ function About() {
         Here you will find more information about me, what I do, and my current
         skills mostly in terms <br /> of programming and technology
       </p>
-      <div className="containerAb" data-aos="fade-up"
-        data-aos-duration="3000" data-aos-once="true">
+      <div
+        className="containerAb"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        data-aos-once="true"
+      >
         <div className="social">
-          <SideLinks  />
+          <SideLinks />
         </div>
         <div className="about">
           <div className="aboutContent">
             <h1>
               Hi, My Name is <span className="hSpan">Chima Mbanefo</span>
             </h1>
- 
+
             <p>
               A software developer with a passion for learning and creating.
             </p>
@@ -52,15 +56,17 @@ function About() {
             </Link>
           </div>
         </div>
-       
-          <div className="imageFrame">
-            <img src={chima} alt="Logo" />
-           
-        
+
+        <div className="imageFrame">
+          <img src={chima} alt="Logo" />
         </div>
       </div>
-      <div className="skillContain" data-aos="fade-up"
-        data-aos-duration="3000" data-aos-once="true">
+      <div
+        className="skillContain"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        data-aos-once="true"
+      >
         <div className="skills">
           <h1 className="skillH">Skills</h1>
           <br />
@@ -73,8 +79,8 @@ function About() {
           <br />
           <h1>Interest & hobbies</h1>
           <p>I love editing pictures and videos. </p>
-          <p>I'm a very skilled photographer.</p>
-          <p>I'm a very talented basketballer.</p>
+          <p>I love photography and videographyr.</p>
+          <p>I love playing basketball.</p>
           <p>I love coding.</p>
         </div>
         <div className="lang">
@@ -93,11 +99,6 @@ function About() {
             })}
           </div>
           <br />
-
-          {/* <div
-          className="imageFrame"
-          style={{ backgroundImage: `url(${chima})` }}
-        ></div> */}
 
           <h2>Frameworks</h2>
           <div className="propsContainer">
@@ -126,7 +127,6 @@ function About() {
                 />
               );
             })}
-            
           </div>
         </div>
       </div>
@@ -134,7 +134,4 @@ function About() {
   );
 }
 
-
 export default About;
-
-
