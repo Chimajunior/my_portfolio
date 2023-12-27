@@ -163,7 +163,6 @@ padding: 20px;
     background-size: cover;
   }
   .social svg {
-    color: red;
     flex-direction: row;
   }
   .social {
