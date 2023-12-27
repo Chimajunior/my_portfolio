@@ -66,14 +66,15 @@ function Contact() {
       <div className="rightSide" data-aos="fade-left"  data-aos-duration="1000"
         data-aos-easing="ease-in-sine" data-aos-once="true">
         <form action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
-          <input type="text" name="name" id="" placeholder="Name" autoComplete="on"/>
-          <input type="email" name="email" id="" placeholder="Email" autoComplete="on"/>
+          <input type="text" name="name" id="" placeholder="Name" autoComplete="on" required/>
+          <input type="email" name="email" id="" placeholder="Email" autoComplete="on" required/>
           <textarea
             name="message"
             id=""
             cols="30"
             rows="10"
             placeholder="Type your message here"
+            required
           ></textarea>
           <div className="sub">
             <input type="submit" value="Send" />
