@@ -8,9 +8,7 @@ function Projects() {
     <div className="projects">
       <h1
         className="projectTitle"
-        // data-aos="fade-down"
-        // data-aos-duration="3000"
-        // data-aos-once="true"
+        
       >
         My Projects
       </h1>

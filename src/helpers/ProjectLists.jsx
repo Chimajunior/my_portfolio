@@ -8,22 +8,22 @@ export const ProjectList = [
     name: "ClS 5G Telecom",
     image: CLS,
     content:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus iste ipsa molestiae cupiditate consectetur itaque, veniam deleniti unde perspiciatis aspernatur id? Explicabo, sequi nostrum fuga dolores magnam tempora doloribus hic.",
+      "Explore my website showcasing my impactful contributions to the 5G Telecom Project, demonstrating innovative solutions and cutting-edge technologies in the telecommunications industry.",
     site: <a href="https://d7bed9ee.cls-5g-telecommunication.pages.dev/" target="_blank"  rel="noreferrer">Visit site</a>,
   },
   {
     name: "Chima jr's Diner",
     image: Burger,
     content:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus iste ipsa molestiae cupiditate consectetur itaque, veniam deleniti unde perspiciatis aspernatur id? Explicabo, sequi nostrum fuga dolores magnam tempora doloribus hic.",
+      "Explore my diner's website, a tasteful and straightforward presentation of my evolving menu. This online space captures the essence of our culinary journey, accentuating simplicity, transparency, and an enduring commitment to delivering delicious excellence.",
     site: <a href="" target="_blank">Visit site</a>,
 
   },
   {
-    name: "My Portfolio",
+    name: "ChimTech",
     image: Portfolio,
     content:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus iste ipsa molestiae cupiditate consectetur itaque, veniam deleniti unde perspiciatis aspernatur id? Explicabo, sequi nostrum fuga dolores magnam tempora doloribus hic.",
+      "Introducing my portfolio, a refined and understated exhibit showcasing the evolution of my work. This website shows my professional journey, placing a premium on simplicity, transparency, and an unwavering dedication to achieving the highest standards of excellence.",
     site: <a href="#">Visit site</a>,
   },
   {

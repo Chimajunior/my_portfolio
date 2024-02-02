@@ -47,9 +47,8 @@ function About() {
               <br /> Check out some of my work in the{" "}
               <a href="/projects">Projects</a> section.
               <br /> <br />
-              Animi commodi excepturi corrupti assumenda rerum <br />
-              explicabo ipsam dolores veritatis sed a quam nesciunt laborum,
-              <br /> labore molestias earum ea, ducimus odio velit?
+              Developing things for the web since 2021.<br />
+              I'm currently based in Nigeria.
             </p>
             <Link to="/contact">
               <button>Contact Me</button>
