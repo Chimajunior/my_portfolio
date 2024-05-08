@@ -15,8 +15,8 @@ function Home() {
           I'm a{" "}
           <ReactTyped className="fSpan"
             strings={[
-              "Front-End Developer",
-              "Software Engineer", 
+              "Front End Developer",
+              // "Software Engineer", 
               // "UI / UX Designer",
             ]}
             typeSpeed={80}
