@@ -1,6 +1,6 @@
 import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import EmailIcon from "@mui/icons-material/Email";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import GithubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
@@ -9,7 +9,7 @@ function SideLinks() {
   const LinkedInUrl =
     "https://www.linkedin.com/in/chima-mbanefo-3a6b50245/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BoLzdn7ZgT%2FWdeMt8vmiTWQ%3D%3D";
   const githubUrl = "https://github.com/Chimajunior";
-  const emailUrl = "mailto:chimajunior14@gmail.com";
+  const whatsUrl = "https://wa.link/yfpxjj";
 
   return (
     <div>
@@ -25,8 +25,8 @@ function SideLinks() {
         <a href={LinkedInUrl} target="_blank" rel="noopener noreferrer">
           <LinkedInIcon />
         </a>
-        <a href={emailUrl} target="_blank" rel="noopener noreferrer">
-          <EmailIcon />
+        <a href={whatsUrl} target="_blank" rel="noopener noreferrer">
+          <WhatsAppIcon />
         </a>
         <a href={githubUrl} target="_blank" rel="noopener noreferrer">
           <GithubIcon />
