@@ -43,19 +43,6 @@ export const ProjectList = [
       "Introducing my portfolio, a refined and understated exhibit showcasing the evolution of my work. This website shows my professional journey, placing a premium on simplicity, transparency, and an unwavering dedication to achieving the highest standards of excellence.",
     site: <a href="#">Visit site</a>,
   },
-  {
-    name: "ClS 5G",
-    image: Pizza,
-    content:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus iste ipsa molestiae cupiditate consectetur itaque, veniam deleniti unde perspiciatis aspernatur id? Explicabo, sequi nostrum fuga dolores magnam tempora doloribus hic.",
-    site: <a href="" target="_blank">Visit site</a>,
-  },
-  {
-    name: "Landing page",
-    image: Pizza,
-    content:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus iste ipsa molestiae cupiditate consectetur itaque, veniam deleniti unde perspiciatis aspernatur id? Explicabo, sequi nostrum fuga dolores magnam tempora doloribus hic.",
-    site: <a href="" target="_blank">Visit site</a>,
-  },
+  
 ];
 
