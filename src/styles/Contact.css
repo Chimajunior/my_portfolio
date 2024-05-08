@@ -25,11 +25,16 @@
   width: 100%;
   margin-right: 60px;
 }
+
+@font-face {
+  font-family: myFont;
+  src: url(/Nicolast.ttf);
+}
 .leftSide h1 {
-  color: white;
-  color: transparent;
+  /* color: red; */
+  /* color: transparent; */
   -webkit-text-stroke: 1px #fff;
-  font-family: cursive;
+  font-family: myFont;
   font-size: 60px;
 }
 .leftSide p {
@@ -97,8 +102,20 @@ input[type="submit"]:hover {
   color: #fff;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 799px) {
- 
+@media only screen and (min-width: 250px) and (max-width: 799px) {
+  .rightSide {
+    width: 90%;
+    padding-right: 0;
+  }
+  .rightSide form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+  }
+  .leftSide h1 {
+    font-size: 40px;
+  }
   .container {
     flex-direction: column;
     justify-content: flex-start;
@@ -141,13 +158,11 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1024px) {
- 
   .container {
     flex-direction: column;
     justify-content: flex-start;
     height: 100%;
     width: 100%;
-  
   }
   .leftSide {
     text-align: center;
