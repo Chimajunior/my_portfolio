@@ -41,13 +41,14 @@ function About() {
             </p>
             <p>
               I specialize in Frontend Web Development,
-              <br /> building the Front-end of Websites and Web Applications
-              that <br />
-              leads to the success of the overall product.
+               building the <br />Front-end of Web Applications
+              that
+              leads to the <br /> success of the overall product.
               <br /> Check out some of my work in the{" "}
               <a href="/projects">Projects</a> section.
               <br /> <br />
-              Developing things for the web since 2021.<br />
+              Developing things for the web since 2021.
+              <br />
               I'm currently based in Nigeria.
             </p>
             <Link to="/contact">
@@ -60,6 +61,7 @@ function About() {
           <img src={chima} alt="Logo" />
         </div>
       </div>
+      
       <div
         className="skillContain"
         data-aos="fade-up"
